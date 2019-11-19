@@ -13,8 +13,8 @@ import java.util.ArrayList;
  */
 public class StoreBook {
         
-        private ArrayList<Book> books;
-	private Book book;
+        private ArrayList<Ibook> books;
+	private Ibook book;
 	
 	
 	public StoreBook() {

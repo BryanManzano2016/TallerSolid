@@ -9,7 +9,7 @@ package tallers;
  *
  * @author CltControl
  */
-public class Book {
+public class Book implements Ibook {
 
 String title;
 	String author;
