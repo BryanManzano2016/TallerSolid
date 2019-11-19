@@ -1,8 +1,17 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package tallers;
 
+/**
+ *
+ * @author CltControl
+ */
 public class Book {
-	
-	String title;
+
+String title;
 	String author;
 	String category;
 	float price;
@@ -29,10 +38,11 @@ public class Book {
 	void setAuthor(String author) {
 		this.author = author;
 	}
-	void searchBook() {
-		/*
-		 * Search a book for author or title or category
-		 */
-	}
-
+        
+/*Se halló una violacion al principio de responsabilidad unica, ya que la funcionalidad de buscar libros no deberia estar en la clase book.
+        En su lugar deberia estar en storebook ya que en esta de administra la estructura que maneja los libros.      
+        
+      
+*/         
+    
 }
